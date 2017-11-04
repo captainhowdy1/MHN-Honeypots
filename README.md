@@ -27,9 +27,9 @@ https://github.com/threatstream/mhn/issues/417
 
 * I was only able to capture 8 instances of attempted connections to the honeypot. 
 
-<img src="https://github.com/seaunderwater/MHN-Honeypots/blob/master/elastichoney.png"/>
+<img src="https://github.com/seaunderwater/MHN-Honeypots/blob/master/elastichoney.png" />
 
-##Overall Issues
+## Overall Issues
 
 * After several days of capturing traffic, my mhn-admin vm suddenly went offlne. I kept getting a 504 gateway timeout and never got it to work again. Thankfully, I was able to make a snapshot of the original vm's persistent disk and deploy another mh-admin vm. 
 
