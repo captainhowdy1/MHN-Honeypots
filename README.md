@@ -1,6 +1,8 @@
 # MHN-Honeypots
 > Three different honeypots were setup using Google Cloud Virtual Machines: Dionaea, Cowrie, Elastichoney. 
 <img src="https://github.com/seaunderwater/MHN-Honeypots/blob/master/attack_summary.png" />
+
+
 ## Dionaea
 * Dionaea is intended to trap malware by exposing a variety of services offered by a network including SIP, FTP, MYSQL, and SMB. My Dionaea instance loggged 9244 connection attempts from countries all over the world. 
 
