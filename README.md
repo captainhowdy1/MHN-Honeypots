@@ -18,7 +18,7 @@ https://github.com/threatstream/mhn/issues/417
 ## Cowrie
 * Cowrie is a medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. Cowrie includes a full fake filesystem. 
 
-* unfortunately I did not catch any traffic attempting to brute force Cowrie. 
+* Unfortunately I did not catch any traffic attempting to brute force Cowrie. 
 
 ## Elastichoney
 * Elasticsearch has become an extremely popular search and analytics engine over the last few years. I thought it would be really neat to setup a honeypot to catch attackers attempting to attack an elastic instance. 
