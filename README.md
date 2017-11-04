@@ -1,5 +1,6 @@
 # MHN-Honeypots
-> Three different honeypots were setup using Google Cloud Virtual Machines: Dionaea, Cowrie, Elastichoney. 
+> Three different honeypots were setup using Google Cloud Virtual Machines: Dionaea, Cowrie, Elastichoney. A total of 9253 attacks were recorded from various countries. 
+
 <img src="https://github.com/seaunderwater/MHN-Honeypots/blob/master/attack_summary.png" />
 
 
@@ -25,7 +26,7 @@ https://github.com/threatstream/mhn/issues/417
 
 * Elastichoney takes requests on the /, /_search, and /_nodes endpoints and returns a JSON response that is identical to a vulnerable ES. 
 
-* I was only able to capture 8 instances of attempted connections to the honeypot. 
+* I was only able to capture 9 instances of attempted connections to the honeypot. 
 
 <img src="https://github.com/seaunderwater/MHN-Honeypots/blob/master/elastichoney.png" />
 
