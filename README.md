@@ -27,7 +27,7 @@ https://github.com/threatstream/mhn/issues/417
 
 * I was only able to capture 8 instances of attempted connections to the honeypot. 
 
-<img src="https://github.com/seaunderwater/MHN-Honeypots/blob/master/elastichoney.png" />
+<img src="https://github.com/seaunderwater/MHN-Honeypots/blob/master/elastichoney.png"/>
 
 ##Overall Issues
 
