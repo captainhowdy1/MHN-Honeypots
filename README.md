@@ -16,5 +16,22 @@ https://github.com/threatstream/mhn/issues/417
 
 
 ## Cowrie
+* Cowrie is a medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. Cowrie includes a full fake filesystem. 
+
+* unfortunately I did not catch any traffic attempting to brute force Cowrie. 
+
 ## Elastichoney
+* Elasticsearch has become an extremely popular search and analytics engine over the last few years. I thought it would be really neat to setup a honeypot to catch attackers attempting to attack an elastic instance. 
+
+* Elastichoney takes requests on the /, /_search, and /_nodes endpoints and returns a JSON response that is identical to a vulnerable ES. 
+
+* I was only able to capture 8 instances of attempted connections to the honeypot. 
+
+<img src="https://github.com/seaunderwater/MHN-Honeypots/blob/master/elastichoney.png" />
+
+##Overall Issues
+
+* After several days of capturing traffic, my mhn-admin vm suddenly went offlne. I kept getting a 504 gateway timeout and never got it to work again. Thankfully, I was able to make a snapshot of the original vm's persistent disk and deploy another mh-admin vm. 
+
+
 
