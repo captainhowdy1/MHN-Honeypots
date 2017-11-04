@@ -26,7 +26,7 @@ https://github.com/threatstream/mhn/issues/417
 
 * Elastichoney takes requests on the /, /_search, and /_nodes endpoints and returns a JSON response that is identical to a vulnerable ES. 
 
-* I was only able to capture 9 instances of attempted connections to the honeypot. 
+* I was only able to capture 9 instances of attempted connections to the honeypot (image below shows page 1). 
 
 <img src="https://github.com/seaunderwater/MHN-Honeypots/blob/master/elastichoney.png" />
 
