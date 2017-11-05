@@ -1,7 +1,7 @@
 # MHN-Honeypots
 > Three different honeypots were setup using Google Cloud Virtual Machines: Dionaea, Cowrie, Elastichoney. A total of 9253 attacks were recorded from various countries. 
 
-> I spent 10 hours on this project
+> I spent 10 hours on this project.
 
 <img src="https://github.com/seaunderwater/MHN-Honeypots/blob/master/attack_summary.png" />
 
