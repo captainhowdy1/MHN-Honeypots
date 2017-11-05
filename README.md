@@ -1,6 +1,8 @@
 # MHN-Honeypots
 > Three different honeypots were setup using Google Cloud Virtual Machines: Dionaea, Cowrie, Elastichoney. A total of 9253 attacks were recorded from various countries. 
 
+> I spent 10 hours on this project
+
 <img src="https://github.com/seaunderwater/MHN-Honeypots/blob/master/attack_summary.png" />
 
 
@@ -34,5 +36,17 @@ https://github.com/threatstream/mhn/issues/417
 
 * After several days of capturing traffic, my mhn-admin vm suddenly went offlne. I kept getting a 504 gateway timeout and never got it to work again. Thankfully, I was able to make a snapshot of the original vm's persistent disk and deploy another mh-admin vm. 
 
+Copyright [2017] [Milan Bhatia]
 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
